@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CF9E1F6A26CF5C6400D5C89A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E1F6926CF5C6400D5C89A /* AppDelegate.swift */; };
 		CF9E1F6C26CF5C6400D5C89A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E1F6B26CF5C6400D5C89A /* SceneDelegate.swift */; };
-		CF9E1F6E26CF5C6400D5C89A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E1F6D26CF5C6400D5C89A /* ViewController.swift */; };
 		CF9E1F7126CF5C6400D5C89A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9E1F6F26CF5C6400D5C89A /* Main.storyboard */; };
 		CF9E1F7426CF5C6400D5C89A /* MemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF9E1F7226CF5C6400D5C89A /* MemoApp.xcdatamodeld */; };
 		CF9E1F7626CF5C6600D5C89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9E1F7526CF5C6600D5C89A /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		CF9E1F6626CF5C6400D5C89A /* MemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E1F6926CF5C6400D5C89A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9E1F6B26CF5C6400D5C89A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF9E1F6D26CF5C6400D5C89A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF9E1F7026CF5C6400D5C89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF9E1F7326CF5C6400D5C89A /* MemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemoApp.xcdatamodel; sourceTree = "<group>"; };
 		CF9E1F7526CF5C6600D5C89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				CF9E1F6926CF5C6400D5C89A /* AppDelegate.swift */,
 				CF9E1F6B26CF5C6400D5C89A /* SceneDelegate.swift */,
-				CF9E1F6D26CF5C6400D5C89A /* ViewController.swift */,
 				CF9E1F6F26CF5C6400D5C89A /* Main.storyboard */,
 				CF9E1F7526CF5C6600D5C89A /* Assets.xcassets */,
 				CF9E1F7726CF5C6600D5C89A /* LaunchScreen.storyboard */,
@@ -140,7 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF9E1F6E26CF5C6400D5C89A /* ViewController.swift in Sources */,
 				CF9E1F6A26CF5C6400D5C89A /* AppDelegate.swift in Sources */,
 				CF9E1F6C26CF5C6400D5C89A /* SceneDelegate.swift in Sources */,
 				CF9E1F7426CF5C6400D5C89A /* MemoApp.xcdatamodeld in Sources */,
