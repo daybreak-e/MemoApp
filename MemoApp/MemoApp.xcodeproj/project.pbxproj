@@ -14,6 +14,7 @@
 		CF9E1F7626CF5C6600D5C89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9E1F7526CF5C6600D5C89A /* Assets.xcassets */; };
 		CF9E1F7926CF5C6600D5C89A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9E1F7726CF5C6600D5C89A /* LaunchScreen.storyboard */; };
 		CF9E1F8526CFF81900D5C89A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E1F8426CFF81900D5C89A /* Model.swift */; };
+		CF9E1F8926CFFAE100D5C89A /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E1F8826CFFAE100D5C89A /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CF9E1F7826CF5C6600D5C89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF9E1F7A26CF5C6600D5C89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF9E1F8426CFF81900D5C89A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CF9E1F8826CFFAE100D5C89A /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CF9E1F7726CF5C6600D5C89A /* LaunchScreen.storyboard */,
 				CF9E1F7A26CF5C6600D5C89A /* Info.plist */,
 				CF9E1F7226CF5C6400D5C89A /* MemoApp.xcdatamodeld */,
+				CF9E1F8826CFFAE100D5C89A /* MemoListTableViewController.swift */,
 			);
 			path = MemoApp;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				CF9E1F6A26CF5C6400D5C89A /* AppDelegate.swift in Sources */,
 				CF9E1F6C26CF5C6400D5C89A /* SceneDelegate.swift in Sources */,
+				CF9E1F8926CFFAE100D5C89A /* MemoListTableViewController.swift in Sources */,
 				CF9E1F7426CF5C6400D5C89A /* MemoApp.xcdatamodeld in Sources */,
 				CF9E1F8526CFF81900D5C89A /* Model.swift in Sources */,
 			);
