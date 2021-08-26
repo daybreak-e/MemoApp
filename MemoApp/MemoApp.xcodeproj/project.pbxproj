@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CF42B8D326D60A920038F5C9 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42B8D226D60A920038F5C9 /* UIViewController+Alert.swift */; };
 		CF42B8D626D7639E0038F5C9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42B8D526D7639E0038F5C9 /* DetailViewController.swift */; };
+		CF42B8DA26D77CE10038F5C9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42B8D926D77CE10038F5C9 /* DataManager.swift */; };
 		CF9E1F6A26CF5C6400D5C89A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E1F6926CF5C6400D5C89A /* AppDelegate.swift */; };
 		CF9E1F6C26CF5C6400D5C89A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E1F6B26CF5C6400D5C89A /* SceneDelegate.swift */; };
 		CF9E1F7126CF5C6400D5C89A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9E1F6F26CF5C6400D5C89A /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		CF42B8D226D60A920038F5C9 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		CF42B8D526D7639E0038F5C9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CF42B8D926D77CE10038F5C9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		CF9E1F6626CF5C6400D5C89A /* MemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E1F6926CF5C6400D5C89A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9E1F6B26CF5C6400D5C89A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF42B8D826D77CCC0038F5C9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CF42B8D926D77CE10038F5C9 /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		CF9E1F5D26CF5C6400D5C89A = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		CF9E1F6826CF5C6400D5C89A /* MemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				CF42B8D826D77CCC0038F5C9 /* Data */,
 				CF9E1F8326CFF7F400D5C89A /* Model */,
 				CF9E1F6926CF5C6400D5C89A /* AppDelegate.swift */,
 				CF9E1F6B26CF5C6400D5C89A /* SceneDelegate.swift */,
@@ -167,6 +178,7 @@
 				CF9E1F7426CF5C6400D5C89A /* MemoApp.xcdatamodeld in Sources */,
 				CF9E1F8526CFF81900D5C89A /* Model.swift in Sources */,
 				CF42B8D326D60A920038F5C9 /* UIViewController+Alert.swift in Sources */,
+				CF42B8DA26D77CE10038F5C9 /* DataManager.swift in Sources */,
 				CF42B8D626D7639E0038F5C9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
