@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF42B8D326D60A920038F5C9 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42B8D226D60A920038F5C9 /* UIViewController+Alert.swift */; };
+		CF42B8D626D7639E0038F5C9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42B8D526D7639E0038F5C9 /* DetailViewController.swift */; };
 		CF9E1F6A26CF5C6400D5C89A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E1F6926CF5C6400D5C89A /* AppDelegate.swift */; };
 		CF9E1F6C26CF5C6400D5C89A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E1F6B26CF5C6400D5C89A /* SceneDelegate.swift */; };
 		CF9E1F7126CF5C6400D5C89A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9E1F6F26CF5C6400D5C89A /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		CF42B8D226D60A920038F5C9 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		CF42B8D526D7639E0038F5C9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CF9E1F6626CF5C6400D5C89A /* MemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E1F6926CF5C6400D5C89A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9E1F6B26CF5C6400D5C89A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				CF9E1F8826CFFAE100D5C89A /* MemoListTableViewController.swift */,
 				CF9E1F8B26D5400C00D5C89A /* ComposeViewController.swift */,
 				CF42B8D226D60A920038F5C9 /* UIViewController+Alert.swift */,
+				CF42B8D526D7639E0038F5C9 /* DetailViewController.swift */,
 			);
 			path = MemoApp;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				CF9E1F7426CF5C6400D5C89A /* MemoApp.xcdatamodeld in Sources */,
 				CF9E1F8526CFF81900D5C89A /* Model.swift in Sources */,
 				CF42B8D326D60A920038F5C9 /* UIViewController+Alert.swift in Sources */,
+				CF42B8D626D7639E0038F5C9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
