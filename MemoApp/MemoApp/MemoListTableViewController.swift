@@ -16,6 +16,7 @@ class MemoListTableViewController: UITableViewController {
         return f
     }()
     
+    
     var token: NSObjectProtocol?
     
     deinit {

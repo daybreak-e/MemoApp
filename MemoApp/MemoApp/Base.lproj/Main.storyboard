@@ -87,6 +87,13 @@
                                             <segue destination="TQg-6L-td5" kind="presentation" id="oT1-Cg-uIg"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="1Tp-Vv-1ip"/>
+                                    <barButtonItem systemItem="action" id="Gt3-Xh-p7o">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <action selector="share:" destination="Hh8-ce-dUs" id="SRM-f2-jjc"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hje-gm-9mc">
